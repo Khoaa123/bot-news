@@ -1,0 +1,9 @@
+{
+  "TLDR AI": "https://tldr.tech/ai/rss",
+  "OpenAI News": "https://openai.com/news/rss.xml",
+  "Google DeepMind": "https://deepmind.google/blog/rss.xml",
+  "Anthropic News": "https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/anthropic-news.xml",
+  "Hugging Face Blog": "https://huggingface.co/blog/feed.xml",
+  "Towards Data Science": "https://towardsdatascience.com/feed",
+  "GitHub Trending Daily": "https://github.com/trending?since=daily"
+}
