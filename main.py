@@ -310,8 +310,7 @@ def summarize_news(articles):
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
-            temperature=0.7,
-            max_tokens=2000
+            temperature=0.7
         )
         summary = response.choices[0].message.content
         logging.info(f"DeepSeek response length: {len(summary) if summary else 0}")
