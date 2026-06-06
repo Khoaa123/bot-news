@@ -403,7 +403,7 @@ def run_bot_flow():
         raise ValueError("Missing TELEGRAM_CHAT_ID environment variable.")
     run_bot_flow_for_chat(TELEGRAM_CHAT_ID)
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def root():
     """Health check endpoint."""
     return {
